@@ -1,0 +1,76 @@
+"Write program that checks two numbers and print maximum of Two numbers
+
+ Scanner sc= new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+   
+   if(a>b)
+    {   
+         System.out.println(a);
+       }
+     
+
+
+
+
+Write an Algorithm that checks two numbers and print minimum of Two numbers
+  
+    Scanner sc= new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+   
+   if(a>b)
+    {   
+         System.out.println(b);
+       }
+     
+
+
+  
+Write an Algorithm that checks two numbers and print average of Two numbers
+Write a program to print 1 to 10 using while loop
+==>>>>
+         int n=1;
+      while(n<=10)
+   {
+      System.out.print(n+"  ");
+       n++;
+   }
+
+Write a program to print 10 to 1 using while loop
+-=>>
+      int n=10;
+      while(n>=1)
+   {
+      System.out.print(n+"  ");
+       n--;
+   }
+
+
+Write a program to print 2,4,6,8,10 using for loop and  while loop
+->>
+          int main()
+{
+      int n=1;
+   while(n<=10)
+ {
+      if(n%2==0)
+        {
+             cout<<n<<" ";
+          }
+     n++;
+}
+
+    return 0;
+}
+Write a program to print 10, 8, 6, 4, 2 using for loop and  while loop"
+->>
+   int n=10;
+   while(n>=1)
+ {
+      if(n%2==0)
+        {
+             cout<<n;
+          }
+     n--;
+}

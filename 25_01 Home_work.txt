@@ -1,0 +1,60 @@
+" Write a program that checks if a number is a Prime number. take the user input.
+
+         
+import java.util.*;
+public class First_program {
+
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter a number");
+	    int a=sc.nextInt();
+	    int b=a/2;
+	    
+	    int flag=0;
+	    for(int i=2;i<=b;i++)
+	    {
+	    	if(a%i==0)
+	    	{
+	    		flag=1;
+	    		break;
+	    	}
+	    }
+	    
+	    if(flag==0)
+	    {
+	    	System.out.println("Prime number");
+	    }
+	    else 
+	    {
+	    	System.out.println("NOT prime");
+	    }
+	    
+
+	}
+
+}
+
+
+
+
+Java Program to calculate power of a number"
+
+-->>
+         
+import java.util.*;
+public class First_program {
+
+	public static void main(String[] args) {
+		/
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter a number");
+	    int a=sc.nextInt();
+	    
+	
+        	    int b=a*a;
+                    System.out.println("the power of number is "+b);
+
+
+	}
+
+}

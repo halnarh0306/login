@@ -1,0 +1,67 @@
+           
+                Hanmant Halnar
+
+"1. Check if a year is leap year or not
+  -->>
+       import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+              Scanner sc=new Scanner(System.in);
+               System.out.println("Enter  a year ");
+		int n=sc.nextInt();
+		
+                   
+         if(( (n%4==0)&&(n%100!=0) )|| (n%400==0))
+        {
+                 System.out.println(" the leap year");
+         }
+       else
+              System.out.println(" not a leap year");
+
+	}
+}
+
+2. Find permutation and combination of numbers
+3. Java Program To Calculate Distance Between Two Points
+4. Sum of even and odd digits
+-->>
+  import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+              Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int rev=0;
+               while(n>0)
+                {
+                   int rem=n%10;
+                  rev=rev*10+rem;
+                   n=n/10;
+                  }
+		System.out.println(rev);
+		
+	}
+}
+      
+5. Reverse a number
+
+   import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+              Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int rev=0;
+               while(n>0)
+                {
+                   int rem=n%10;
+                  rev=rev*10+rem;
+                   n=n/10;
+                  }
+		System.out.println(rev);
+		
+	}
+}
+6. WAP to print first x terms of the series 3N + 2 which are not multiples of 4.
+7. Compound Intrest"

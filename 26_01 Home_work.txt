@@ -1,0 +1,81 @@
+"Use while loop to calculate sum of numbrs till n, where n is taken from user
+__>>
+  
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+              Scanner sc=new Scanner(System.in);
+		int n=nextInt();
+		int sum=0;
+		for(int i=1;i<=n;i++)
+              {
+                   sum=sum+i;
+        
+                       }
+		System.out.println(sum);
+		
+	}
+}
+use while loop to calculate factorial of a number by taking user input
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+              Scanner sc=new Scanner(System.in);
+		int n=nextInt();
+		int fact=1;
+		for(int i=n;i>=1;i++)
+              {
+                   fact=fact*i;
+        
+                       }
+		System.out.println(fact);
+		
+	}
+}
+Write a program to print multiplication table of a number entered by user
+
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+              Scanner sc=new Scanner(System.in);
+		int n=nextInt();
+		int mul;
+		for(int i=1;i<=10;i++)
+              {
+                   mul=n*i;
+		System.out.println(mul);
+               }
+		
+	}
+}
+Write a program to swap 2 numbers, where numbers are taken from user"
+
+==>>
+      /******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
+public class Main
+{
+	public static void main(String[] args) {
+		int n1=24;
+		int n2=36;
+		int m;
+                 m=n1;
+                 n1=n2;
+                 n2=m;
+		System.out.println("After swaping numbers"+n1+" "+n2);
+		
+	}
+}
+
+       

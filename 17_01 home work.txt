@@ -1,0 +1,94 @@
+Write pseudocode for the following patterns
+    *
+    **
+    ***
+    ****          int n=5
+   ANS -->         for(int i=1;i<5;i++)
+              {
+                 for(int j=1;j<=i;j++)
+                  {
+                     System.out.print("*");
+                   }
+                  System.out.println();
+              }              
+
+
+
+   
+    1                              
+    12
+    123
+    1234        ans=>          int n=5;
+                              for(int i=1;i<n;i++)
+                                {
+                                 for(int j=1;j<=i;j++)
+                                  {
+                                           cout<<j<<" ";
+                                    }
+                                     cout<<endl;
+                                    }
+                                      
+                                                                                                         
+    
+    1
+    22
+    333
+    4444
+    55555
+                                 int n=6;
+                              for(int i=1;i<n;i++)
+                                {
+                                 for(int j=1;j<=i;j++)
+                                  {
+                                           cout<<i<<" ";
+                                    }
+                                     cout<<endl;
+                                    }
+                               
+    
+    1
+    2 3
+    4 5 6
+    7 8 9 10
+    11 12 13 14 15
+                                   int n=6;
+                                       int num=1;
+                              for(int i=1;i<n;i++)
+                                {
+                                 for(int j=1;j<=i;j++)
+                                  {
+                                           cout<<num<<" ";
+                                                  num++;
+                                    }
+                                     cout<<endl;
+                                    }
+                               
+    
+    ****
+    ***
+    **
+    *
+                                      int n=5;
+                                       int num=1;
+                              for(int i=1;i<5;i++)
+                                {
+                                 for(int j=i;j<5;j++)
+                                  {
+                                           cout<<"*";
+                                                  
+                                    }
+                                     cout<<endl;
+                                    }
+                               
+    1234
+    123
+    12
+    1      ans->                             int n=5;
+                              for(int i=n;i>1;i--)
+                                {
+                                 for(int j=1;j<i;j++)
+                                  {
+                                           cout<<j<<" ";
+                                    }
+                                     cout<<endl;
+                                    }
