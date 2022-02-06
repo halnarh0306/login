@@ -1,0 +1,84 @@
+"WAP to caluclate no. of digits in a number entered by user.
+---->>
+
+package febone;
+import java.util.Scanner;
+public class first {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("enter a number");
+		int n=sc.nextInt();
+		int digit=0;
+		while(n>0)
+		{
+		  int rev=n%10;
+		  digit++;
+		  n=n/10;
+		}
+		System.out.println(digit);
+
+	}
+
+}
+
+Apply do while loop to calculat factorial of a number such that, program asks  user, if he wants to continue, if yes, program should run again
+
+---->>>
+package febone;
+import java.util.Scanner;
+public class second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int  fact=1;
+		for(int i=1;i<=n;i++)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
+	}
+
+}
+
+
+
+WAP to creat a fuction that check if no. is odd or even. call this function from main method"
+-->>
+
+  package febone;
+
+import java.util.Scanner;
+public class third {
+	
+	private static void isevenodd(int n)
+	{
+		if(n%2==0)
+		{
+			System.out.println("even number");
+		}
+		else
+		{
+			System.out.print("odd number");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a number");
+		
+		int n=sc.nextInt();
+		
+		isevenodd(n);
+
+	}
+
+}
+

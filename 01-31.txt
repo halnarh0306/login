@@ -1,0 +1,190 @@
+"1.Write a program to print the product of the decimal and int numbers ex: 8.2 and 6
+--->>>
+package janThirtyone;
+
+public class firstone {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		float a=8.2f;
+		 float b=6;
+	  float mul=a*b;
+		System.out.println(mul);
+
+	}
+
+}
+
+2.Print the ASCII value of any character user proides
+--->>>
+package janThirtyone;
+
+import java.util.Scanner;
+
+public class second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            Scanner sc=new Scanner(System.in);
+            char ch=sc.next().charAt(0);
+            int i=(int)ch;
+            System.out.println(i);
+	}
+
+}
+
+3.Write a program to add 3 to the ASCII value of the any character user proides  and print the equivalent character.
+
+---->>>
+  package janThirtyone;
+
+import java.util.Scanner;
+
+public class second {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            Scanner sc=new Scanner(System.in);
+            char ch=sc.next().charAt(0);
+            char ch1=sc.next().charAt(0);
+            char ch2=sc.next().charAt(0);
+            int i=(int)ch+(int)ch1+(int)ch2;
+            char ch3=(char)i;
+            System.out.println(ch3);
+	}
+
+}
+
+4.Write a Java program to convert temperature from Fahrenheit to Celsius degree.
+
+--->>>>
+package janThirtyone;
+import java.util.*;
+
+public class five {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a fahrenheit ");
+		
+		int n=sc.nextInt();
+		int b=(n-32)*5/9;
+		System.out.println(b);
+
+	}
+
+}
+
+
+5. Write a Java program that reads a number in inches, converts it to meters.
+-->>
+
+  package janThirtyone;
+import java.util.*;
+
+public class five {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a inches");
+		
+		int n=sc.nextInt();
+		 float b=n/39.37f;
+		System.out.println(b);
+
+	}
+
+}
+
+6. Write a Java program to convert minutes into a number of years and days.
+--->>>>
+  package janThirtyone;
+import java.util.*;
+public class six {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a no of minutes");
+		double min=sc.nextDouble();
+		
+		double minINyear=60*24*365;
+		
+		long year=(int)(min/minINyear);
+		int days=(int)(min/60/24)%365;
+		
+
+		System.out.println("years="+year+" days= "+days);
+		
+	
+
+	}
+
+}
+
+   
+
+7. Take String input as Name of the city and convert it to reverse string and show on the console.
+
+--->>>
+package javaFEB;
+
+import java.util.Scanner;
+
+public class Feb02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		String a=sc.nextLine();
+		String b=" ";
+		for(int i=a.length()-1;i>=0;i--)
+		{
+			b=b+a.charAt(i);
+			
+		}
+		System.out.println(b);
+		
+	      
+	
+	}
+
+}
+
+8. Check if a string is pallindrome or not. eg. input : ABCBA "
+
+--->>>
+package janThirtyone;
+
+import java.util.Scanner;
+public class last_palindromeofString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a,b="",c="";
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a String :");
+		 a=sc.nextLine();
+		 
+		
+		for(int i=a.length()-1;i>=0;i--)
+		{
+			b=b+a.charAt(i);
+			
+		}
+		System.out.println(b);
+		
+
+		 c=a.equals(b)?"palindrome":"NOt";
+		 System.out.println(c);
+		 
+		
+
+	}
+
+}
